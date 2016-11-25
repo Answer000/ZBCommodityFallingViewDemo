@@ -10,7 +10,7 @@
  
 ### 导入方法
  * 手动导入：将ZBCommodityFallingTool文件夹拖入工程中后引入头文件ZBCommodityFallingTools.h即可
- * pods导入：pod 'ZBCommodityFallingTools'
+ * pods导入：pod 'ZBCommodityFallingTools', '~> 0.0.2'
  
 ### 使用方法
  * 注意：参与掉落动画的dropView必须设置tag值为8088
