@@ -15,12 +15,12 @@
 		3439F6C61DE68F310026701E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3439F6C41DE68F310026701E /* LaunchScreen.storyboard */; };
 		3439F6D11DE68F310026701E /* ZBCommodityFallingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3439F6D01DE68F310026701E /* ZBCommodityFallingViewDemoTests.m */; };
 		3439F6DC1DE68F310026701E /* ZBCommodityFallingViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3439F6DB1DE68F310026701E /* ZBCommodityFallingViewDemoUITests.m */; };
-		3439F6F21DE6ABF70026701E /* ZBCommodityFallingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3439F6F11DE6ABF70026701E /* ZBCommodityFallingTools.m */; };
 		3447D7C11DE7C66A00D8A8EB /* ZBCommodityFallingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447D7BE1DE7C66A00D8A8EB /* ZBCommodityFallingTableView.m */; };
 		3447D7C21DE7C66A00D8A8EB /* ZBCommodityFallingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447D7C01DE7C66A00D8A8EB /* ZBCommodityFallingTableViewCell.m */; };
 		3447D7C81DE7C8E600D8A8EB /* ZBCommodityFallingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447D7C71DE7C8E600D8A8EB /* ZBCommodityFallingCollectionView.m */; };
 		3447D7CB1DE7C91100D8A8EB /* ZBCommodityFallingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447D7CA1DE7C91100D8A8EB /* ZBCommodityFallingCollectionViewCell.m */; };
 		3447D7CE1DE7D12000D8A8EB /* ZBCommodityFallingCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3447D7CD1DE7D12000D8A8EB /* ZBCommodityFallingCollectionViewLayout.m */; };
+		34EE51051DE826270010844E /* ZBCommodityFallingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EE51041DE826270010844E /* ZBCommodityFallingTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,6 @@
 		3439F6D71DE68F310026701E /* ZBCommodityFallingViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBCommodityFallingViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3439F6DB1DE68F310026701E /* ZBCommodityFallingViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCommodityFallingViewDemoUITests.m; sourceTree = "<group>"; };
 		3439F6DD1DE68F310026701E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3439F6F01DE6ABF70026701E /* ZBCommodityFallingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCommodityFallingTools.h; sourceTree = "<group>"; };
-		3439F6F11DE6ABF70026701E /* ZBCommodityFallingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCommodityFallingTools.m; sourceTree = "<group>"; };
 		3447D7BD1DE7C66A00D8A8EB /* ZBCommodityFallingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCommodityFallingTableView.h; sourceTree = "<group>"; };
 		3447D7BE1DE7C66A00D8A8EB /* ZBCommodityFallingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCommodityFallingTableView.m; sourceTree = "<group>"; };
 		3447D7BF1DE7C66A00D8A8EB /* ZBCommodityFallingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCommodityFallingTableViewCell.h; sourceTree = "<group>"; };
@@ -69,6 +67,8 @@
 		3447D7CA1DE7C91100D8A8EB /* ZBCommodityFallingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCommodityFallingCollectionViewCell.m; sourceTree = "<group>"; };
 		3447D7CC1DE7D12000D8A8EB /* ZBCommodityFallingCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCommodityFallingCollectionViewLayout.h; sourceTree = "<group>"; };
 		3447D7CD1DE7D12000D8A8EB /* ZBCommodityFallingCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCommodityFallingCollectionViewLayout.m; sourceTree = "<group>"; };
+		34EE51031DE826270010844E /* ZBCommodityFallingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCommodityFallingTools.h; sourceTree = "<group>"; };
+		34EE51041DE826270010844E /* ZBCommodityFallingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCommodityFallingTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +119,9 @@
 		3439F6B51DE68F310026701E /* ZBCommodityFallingViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				34EE51021DE826270010844E /* ZBCommodityFallingTool */,
 				3447D7BC1DE7C66300D8A8EB /* CollectionViewDemo */,
 				3447D7BB1DE7C64F00D8A8EB /* TableViewDemo */,
-				3439F6E91DE68F7A0026701E /* ZBCommodityFallingTool */,
 				3439F6B91DE68F310026701E /* AppDelegate.h */,
 				3439F6BA1DE68F310026701E /* AppDelegate.m */,
 				3439F6BC1DE68F310026701E /* ViewController.h */,
@@ -161,16 +161,6 @@
 			path = ZBCommodityFallingViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		3439F6E91DE68F7A0026701E /* ZBCommodityFallingTool */ = {
-			isa = PBXGroup;
-			children = (
-				3439F6F01DE6ABF70026701E /* ZBCommodityFallingTools.h */,
-				3439F6F11DE6ABF70026701E /* ZBCommodityFallingTools.m */,
-			);
-			name = ZBCommodityFallingTool;
-			path = ZBCommodityFallingView;
-			sourceTree = "<group>";
-		};
 		3447D7BB1DE7C64F00D8A8EB /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +183,15 @@
 				3447D7CD1DE7D12000D8A8EB /* ZBCommodityFallingCollectionViewLayout.m */,
 			);
 			path = CollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		34EE51021DE826270010844E /* ZBCommodityFallingTool */ = {
+			isa = PBXGroup;
+			children = (
+				34EE51031DE826270010844E /* ZBCommodityFallingTools.h */,
+				34EE51041DE826270010844E /* ZBCommodityFallingTools.m */,
+			);
+			path = ZBCommodityFallingTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,12 +330,12 @@
 			files = (
 				3447D7CE1DE7D12000D8A8EB /* ZBCommodityFallingCollectionViewLayout.m in Sources */,
 				3439F6BE1DE68F310026701E /* ViewController.m in Sources */,
-				3439F6F21DE6ABF70026701E /* ZBCommodityFallingTools.m in Sources */,
 				3447D7C11DE7C66A00D8A8EB /* ZBCommodityFallingTableView.m in Sources */,
 				3447D7C21DE7C66A00D8A8EB /* ZBCommodityFallingTableViewCell.m in Sources */,
 				3439F6BB1DE68F310026701E /* AppDelegate.m in Sources */,
 				3439F6B81DE68F310026701E /* main.m in Sources */,
 				3447D7CB1DE7C91100D8A8EB /* ZBCommodityFallingCollectionViewCell.m in Sources */,
+				34EE51051DE826270010844E /* ZBCommodityFallingTools.m in Sources */,
 				3447D7C81DE7C8E600D8A8EB /* ZBCommodityFallingCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
