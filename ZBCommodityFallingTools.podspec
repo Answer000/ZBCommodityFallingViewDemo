@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'ZBCommodityFallingTools'
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     s.summary      = '实现商品掉落动画效果，一行代码轻松解决问题，可塑性高，使用简单方便。'
     s.homepage     = 'https://github.com/AnswerXu/ZBCommodityFallingViewDemo.git'
     s.license      = { :type => "MIT", :file => "LICENSE" }
