@@ -13,18 +13,18 @@
  * pods导入：pod 'ZBCommodityFallingTools'
  
 ### 使用方法
-  * 注意：参与掉落动画的dropView必须设置tag值为8088
-  * 如多次调用该单例对象,请重新设置其属性，否则会自动保存上次调用时设置的属性
+ * 注意：参与掉落动画的dropView必须设置tag值为8088
+ * 如多次调用该单例对象,请重新设置其属性，否则会自动保存上次调用时设置的属性
 ```Objc 
-   ZBCommodityFallingTools *tools =[ZBCommodityFallingTools shareTools];
-   //设置属性
-   tools.rotationNumber = 1;
-   tools.viewType = roundViewType;
-   tools.duration = 2.f;
-   tools.endPoint = CGPointMake(KScreenSize.width/2, KScreenSize.height);
-   tools.controlPoint = CGPointMake(KScreenSize.width/2, currentTouchP.y);
-   //开始执行动画
-   [tools startDropAnimationWithView:self.goodsImgView];
+  ZBCommodityFallingTools *tools =[ZBCommodityFallingTools shareTools];
+  //设置属性
+  tools.rotationNumber = 1;
+  tools.viewType = roundViewType;
+  tools.duration = 2.f;
+  tools.endPoint = CGPointMake(KScreenSize.width/2, KScreenSize.height);
+  tools.controlPoint = CGPointMake(KScreenSize.width/2, currentTouchP.y);
+  //开始执行动画
+  [tools startDropAnimationWithView:self.goodsImgView];
 ```
 
 ### 
